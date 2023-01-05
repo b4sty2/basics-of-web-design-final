@@ -1,0 +1,375 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background:rgb(30,30,40);
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background: rgb(17, 17, 17);
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+#header a {
+    font-family: tahoma;
+    color: white;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+#header a:hover {
+    color: rgb(255, 128, 0);
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+#section {
+    width: 23%;
+    height: 3100px;
+    float: left;
+}
+
+#content {
+    width: 77%;
+    height: 3100px;
+    float: right;
+}
+
+#content p {
+    margin-left: 0px;
+}
+
+#footer {
+    width: 100%;
+    height: 75px;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+#aside {
+    position: sticky;
+    text-align: center;
+    top: 75px;
+    float: left;
+}
+
+.sidebarbox {
+    background-color: rgb(25, 25, 31);
+    border-radius: 15px;
+    border-color: rgb(6, 60, 118);
+    border-style: solid;
+    margin-left: 50px;
+}
+
+.sidebarboxb {
+    background-color: rgb(25, 25, 31);
+    border-radius: 15px;
+    border-color: rgb(6, 60, 118);
+    border-style: solid;
+    margin-left: 40px;
+}
+
+.sidebarboxe {
+    background-color: rgb(25, 25, 31);
+    border-radius: 15px;
+    border-color: rgb(6, 60, 118);
+    border-style: solid;
+    margin-left: 20px;
+}
+
+.sidebarboxs {
+    background-color: rgb(25, 25, 31);
+    border-radius: 15px;
+    border-color: rgb(6, 60, 118);
+    border-style: solid;
+    margin-left: 20px;
+}
+
+.sidebarboxs li {
+    margin-right: 15px;
+}
+
+.sidebarboxe li {
+    margin-right: 40px;
+}
+
+.sidebarboxb li {
+    margin-right: 40px;
+}
+
+.sidebarbox li {
+    margin-right: 40px;
+}
+
+#aside a{
+    color: rgb(215, 213, 213);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+#aside a:hover {
+    color: rgb(0, 123, 255);
+}
+
+ol {list-style: none;}
+
+li {height: 40px;
+    font-size: 20px;}
+
+h1{
+    font-size: 35px;
+    font-family: tahoma;
+    color: rgb(226, 224, 224);
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(215, 213, 213);
+    margin-right: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: tahoma;
+    color: rgb(226, 224, 224);
+}
+
+.elementler li {
+    color: rgb(215, 213, 213);
+}
+
+.elementler h1 {
+    font-size: 25px;
+}
+
+.elementler h2 {
+    text-align: center;
+    color: rgb(215, 213, 213);
+}
+
+.elementler p {
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 0px;
+}
+
+#sectionelement {
+    width: 23%;
+    height: 3300px;
+    float: left;
+}
+
+#contentelement {
+    width: 77%;
+    height: 3300px;
+    float: right;
+}
+
+#sectionbilim {
+    width: 23%;
+    height: 7000px;
+    float: left;
+}
+
+#contentbilim {
+    width: 77%;
+    height: 7000px;
+    float: right;
+}
+
+#contentbilim p {
+    margin-left: 0px;
+}
+
+#sectionhaber {
+    width: 23%;
+    height: 7000px;
+    float: left;
+}
+
+#contenthaber {
+    width: 77%;
+    height: 7000px;
+    float: right;
+}
+
+#contenthaber p {
+    text-align: justify;
+    margin-left: 0px;
+}
+
+#contenthaber a {
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+    font-size: 22px;}
+
+#contenthaber a:hover {
+    color: rgb(255, 128, 0);
+    transition: all 0.4s linear;
+}
+
+#section1 {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+#content1 {
+    width: 100%;
+    height: 1300px;
+}
+
+#content1 h1, h2 {
+    margin-left: 25px;
+}
+
+#content1 p {
+    text-align: justify;
+}
+
+#section1 img {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#section2 {
+    width: 30%;
+    height: 780px;
+    float: left;
+    background-color:rgb(22, 22, 30);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#bilimtable td {
+    font-family: tahoma;
+}
+
+#section2 img {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#content2 {
+    width: 100%;
+    height: 1400px;
+}
+
+#content2 h1, p {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+#contentbilim a {
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+    font-size: 22px;}
+
+#contentbilim a:hover {
+    text-decoration: none;
+    transition: all 0.4s linear;
+    color: rgb(255, 128, 0);
+    font-size: 22px;}
+
+html {
+    scroll-behavior:smooth;}
+
+#footer img {
+    margin: 30px;
+    width: 75px;
+}
+
+#footer p {
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer {
+    clear: both;
+    height: auto;
+    background:rgb(17, 17, 17);
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid rgb(0, 123, 255);
+    width: 600px;
+    text-align: left;
+    margin-left: 0px;
+    background: none;
+}
+
+#bilimtable {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#bilimtable td {
+    padding: 20px;
+    color: rgb(215, 213, 213);
+}
+
+#container {
+    height: auto;
+}
+
+.formtablom {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid white;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:50%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 150px;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:rgb(126, 56, 5);
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.6s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+
+#contenthak h1 {
+    font-size: 27px;
+    text-align: center;
+}
+
+#contenthak p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 250px;
+}
